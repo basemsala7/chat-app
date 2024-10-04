@@ -52,3 +52,20 @@ This process ensures that users have secure access to their chats and can easily
 
 ![User Authentication Flow](auth.png)
 
+## Chat Functionality
+
+Once logged in, users can create new chats with other users and start chatting. The process is as follows:
+
+1. **Create a New Chat**: 
+   - Users can select one or more contacts from their friends list to initiate a new chat.
+   - After selecting contacts, they can create a new chat room.
+
+2. **Start Chatting**: 
+   - Once the chat room is created, users can send messages in real-time to other participants.
+   - Users can also see the message history for ongoing chats.
+
+This functionality allows users to easily communicate with their friends and maintain conversations within the application.
+
+![User Authentication Flow](chat.png)
+
+
