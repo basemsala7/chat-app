@@ -50,5 +50,5 @@ Users can access the chat application by logging in. If a user does not have an 
 This process ensures that users have secure access to their chats and can easily create an account if they are new to the application.
 
 
-![User Authentication Flow](home.png)
+![User Authentication Flow](auth.png)
 
