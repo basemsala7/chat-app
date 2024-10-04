@@ -32,3 +32,23 @@ A real-time chat application built using a client-server architecture. This proj
 
 ### Client
 - **React**: JavaScript library for building the user interface
+
+
+## User Authentication Flow
+
+Users can access the chat application by logging in. If a user does not have an account, they can easily sign up. The flow is as follows:
+
+1. **Login**: 
+   - Users enter their credentials (email and password) to log in.
+   - Upon successful login, they gain access to the chat interface and can start chatting.
+
+2. **Sign Up**: 
+   - If the user does not have an account, they can click on the "Sign Up" button.
+   - They will be prompted to enter their details, including their name, email, and password.
+   - After successfully signing up, the user can log in with their new credentials.
+
+This process ensures that users have secure access to their chats and can easily create an account if they are new to the application.
+
+
+![User Authentication Flow](home.png)
+
