@@ -1,0 +1,40 @@
+.homeContainer {
+  display: flex;
+  gap: 32px;
+  padding: 42px;
+  color: aliceblue;
+}
+
+.homeContainer > div:nth-child(1) {
+  width: 30%;
+}
+.homeContainer > div:nth-child(2) {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.425);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 80vh;
+}
+.potintioalChatsWraper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.potintioalChatsWraper > p {
+  padding: 8px;
+  border: 1px solid gray;
+  margin: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.potintioalChatsWraper > p:hover {
+  background-color: gray;
+  color: black;
+}
+.createChatLabel {
+  margin: 16px 0;
+  border-top: 1px solid gray;
+  padding-top: 8px;
+}

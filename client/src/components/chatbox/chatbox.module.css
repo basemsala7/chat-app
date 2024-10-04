@@ -1,0 +1,42 @@
+.chatboxHeader {
+  text-align: center;
+  padding: 8px;
+  background-color: #80808033;
+}
+.chatContent {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  margin: 8px 12px;
+  padding: 12px;
+  background-color: #80808033;
+  border-radius: 12px;
+  width: fit-content;
+}
+.senderMessage {
+  background-color: blueviolet;
+  align-self: flex-end;
+}
+.chatContent::-webkit-scrollbar {
+  width: 4px;
+}
+.inputWraper {
+  margin: auto 16px 12px;
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+}
+.inputWraper input {
+  width: 95%;
+  height: 35px;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 8px;
+  border: none;
+}
+.inputWraper button {
+  background-color: transparent;
+  border: none;
+}

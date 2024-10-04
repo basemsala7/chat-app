@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 16px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.avatarWraper {
+  display: flex;
+}
+.avatarWraper img {
+  margin-right: 12px;
+  width: 28px;
+  height: 45px;
+}
+.avatarWraper p {
+  color: white;
+  margin-bottom: 5px;
+}
+.avatarWraper span {
+  color: gray;
+}
+
+.card > p {
+  color: gray;
+}
+
+.messageCount {
+  background-color: forestgreen;
+  position: absolute;
+  bottom: 14px;
+  right: 16px;
+  padding: 0px 5px;
+  border-radius: 50%;
+  color: white !important   ;
+  width: 10px;
+  height: 10px;
+}
