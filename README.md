@@ -1,7 +1,7 @@
 # Chat App
 A real-time chat application built using a client-server architecture. This project is divided into three main parts:
 
-![Chat app](./Screenshot 2024-10-04 141446.png)
+![Chat app](Screenshot 2024-10-04 141446.png)
 
 
 - **Backend**: Handles the server-side logic and API endpoints.
